@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <form action="" method="post" class="col-md-4 mx-auto shadow-lg text-center mt-3 p-5">
+                <h3>Login</h3>
+                <div class="form-floating col-6 mx-auto mb-2">
+                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingrese nombre completo">
+                    <label for="nombre">Nombre Completo:</label>
+                </div>
+                <div class="form-floating col-6 mx-auto mb-2">
+                    <input type="text" class="form-control" name="rut" id="rut" placeholder="Ingrese rut CON GUIÓN">
+
+                    <label for="pass">Rut (con guión):</label>
+                </div>  
+                <div class="form-floating col-6 mx-auto mb-2">
+                    <input type="email" class="form-control" name="correo" id="correo" placeholder="Ingrese correo">
+
+                    <label for="correo">Correo:</label>
+                </div> 
+                <div class="form-group col-6 mx-auto">
+                    <input type="button" value="Validar" class="btn btn-outline-success" onclick="validar()">
+                    <input type="reset" value="Limpiar" class="btn btn-outline-warning">
+
+                </div>                                               
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
